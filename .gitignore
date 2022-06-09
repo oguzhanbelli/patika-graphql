@@ -1,0 +1,25 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+.npm
+
+# Test coverage directory
+coverage
+.nyc_output
+
+# Config
+config/*.js
+!config/index.js
+
+# Cache
+.sass-cache
+
+# Assets
+assets/data
+
+# Deployment config
+/process*.yml
+/shipitfile.js
